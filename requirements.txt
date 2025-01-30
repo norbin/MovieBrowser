@@ -1,7 +1,4 @@
-tk
 cinemagoer
-pytest
 Pillow
-requests
 markdown2
 tkhtmlview
