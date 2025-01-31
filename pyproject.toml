@@ -1,0 +1,21 @@
+[project]
+name = "moviebrowser"
+version = "0.1.0"
+description = "This tool receives informations for the local movies from IMDB"
+authors = [
+    {name = "norbin",email = "gatinorbert@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "tkhtmlview (>=0.3.1,<0.4.0)",
+    "pillow (>=10,<11)",
+    "cinemagoer (>=2023.5.1,<2024.0.0)",
+    "markdown2 (>=2.5.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

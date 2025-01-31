@@ -1,1 +1,8 @@
+#Virt env
 .venv/
+#Pycharm
+.idea/
+#Compiled python files
+__pycache__/
+*.pyc
+*.pyo
