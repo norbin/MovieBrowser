@@ -1,6 +1,7 @@
 from tkinter import Toplevel, Scrollbar
 from tkhtmlview import HTMLLabel
 
+
 class About(Toplevel):
     def __init__(self, parent, html_content):
         super().__init__(parent)

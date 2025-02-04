@@ -3,6 +3,7 @@ from tkinter import ttk, W, Scrollbar, Text, Label, PhotoImage, Menu
 from tkinter.constants import VERTICAL
 from controller import Controller
 
+
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -62,12 +63,12 @@ class App(tk.Tk):
 
         # Init the Controller
         self.controller = Controller(
-            root = self,
-            tree = self.tree,
-            progress = self.progress,
-            details_text = self.details_text,
+            root=self,
+            tree=self.tree,
+            progress=self.progress,
+            details_text=self.details_text,
             default_image=self.default_image,
-            poster_label = self.poster_label
+            poster_label=self.poster_label
         )
 
         # Add play button

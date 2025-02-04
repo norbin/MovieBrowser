@@ -7,6 +7,7 @@ from service import ImdbService
 from tkinter import filedialog
 from about import About
 
+
 class Controller:
     def __init__(self, root, tree, progress, details_text, default_image, poster_label):
         self.root = root
